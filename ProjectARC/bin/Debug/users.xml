@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<users>
+  <user UserNum="1">
+    <login>Vasya</login>
+  <password>user1</password>
+  </user>
+<user UserNum="2">
+    <login>Petya</login>
+  <password>user2</password>
+  </user>
+<user UserNum="3">
+    <login>Admin</login>
+  <password>Admin</password>
+    </user>
+<user UserNum="4">
+    <login>Kostya</login>
+  <password>user4</password>
+  </user>
+
+  </users>
