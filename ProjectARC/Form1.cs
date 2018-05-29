@@ -102,22 +102,22 @@ namespace ProjectARC
 
         private void open_Click(object sender, EventArgs e)
         {
-            int x = dataGridView1.CurrentRow.Index;
-            if (dataGridView1[11, x].Value.ToString() != "")
-            {
-                string filename = dataGridView1[11, x].Value.ToString();
-                string filePath = filename;
-                this.axAcroPDF1.LoadFile(filePath);
-                this.axAcroPDF1.src = filePath;
-                this.axAcroPDF1.setShowToolbar(false);
-                this.axAcroPDF1.setView("FitH");
-                this.axAcroPDF1.setLayoutMode("DontCare");
-                this.axAcroPDF1.Show();
+            //int x = dataGridView1.CurrentRow.Index;
+            //if (dataGridView1[11, x].Value.ToString() != "")
+            //{
+            //    string filename = dataGridView1[11, x].Value.ToString();
+            //    string filePath = filename;
+            //    this.axAcroPDF1.LoadFile(filePath);
+            //    this.axAcroPDF1.src = filePath;
+            //    this.axAcroPDF1.setShowToolbar(false);
+            //    this.axAcroPDF1.setView("FitH");
+            //    this.axAcroPDF1.setLayoutMode("DontCare");
+            //    this.axAcroPDF1.Show();
 
-                SaveFunc();
-            }
-            else
-                MessageBox.Show("Не выбран PDF файл для текущего поля");
+            //    SaveFunc();
+            //}
+            //else
+            //    MessageBox.Show("Не выбран PDF файл для текущего поля");
         }
 
         private void Add_PDF_Click(object sender, EventArgs e)
